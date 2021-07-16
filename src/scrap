@@ -1,0 +1,2 @@
+<RecipeTile recipe={recipe} />;
+(loading?(<ReactBootStrap.Spinner animation="grow" />):(<RecipeTile recipe={recipe} />))
